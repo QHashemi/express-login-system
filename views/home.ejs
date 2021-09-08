@@ -1,0 +1,106 @@
+
+<%- include("./templates/head.ejs") %>
+<section class="homePage">
+	<aside class="sidebar">
+		<div class="dashboard_profile">
+			<div class="d_profile">
+				<span></i></span>
+				<h3>Qasem Hashemi</h3>
+				<p>Web-Developer</p>
+			</div>
+		</div>
+		<div class="dashboard_menu">
+			<div class="d_menu" data-menu="dashboard"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></div>
+			<div class="d_menu" data-menu="profile"><i class="far fa-id-card"></i><span>Profile</span></div>
+			<div class="d_menu" data-menu="blog"><i class="fas fa-blog"></i><span>Blog</span></div>
+			<div class="d_menu" data-menu="todo"><i class="far fa-list-alt"></i><span>Todo</span></div>
+			<div class="d_menu" data-menu="logout" id="logout" ><i class="fas fa-power-off"></i><span>Logout</span></div>
+		</div>
+	</aside>
+	<main>
+		<section class="innerMain" data-section="dashboard">
+			<div class="d_aboutMe">
+				<div class="userInfo">
+					<span class="userImage"></span>
+					<br>
+					
+					<h3 class="userName">Qasem Hashemi</h3>
+					<p>Web-Developer</p>
+				</div>
+				<div class="userDec">
+					<span ><i class="far fa-edit d_ditableContent"></i></span>
+					<h2 class="edit_dashboardtitle">I'am really happy!</h2>
+					<br>
+					<p class="edit_dashboardText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, impedit quidem atque nostrum unde sit repudiandae, voluptatibus nesciunt cumque excepturi exercitationem odio a illum id facere vero perspiciatis.
+						o a illum id facere vero perspiciatis. 
+						o a illum id facere vero perspiciatis. Adipisci, commodi?</p>
+					<br>
+					<button class="userMore">Read More</button>
+				</div>
+			</div>
+			<div class="sozial_media">
+				<div class="sozial_media_row">
+					<i class="fab fa-facebook-square"></i>
+					<h1>23k</h1>
+				</div>
+				<div class="sozial_media_row">
+					<i class="fab fa-instagram"></i>
+					<h1>223k</h1>
+				</div>
+				<div class="sozial_media_row">
+					<i class="fab fa-whatsapp"></i>
+					<h1>43k</h1>
+				</div>
+				<div class="sozial_media_row">
+					<i class="fab fa-twitter"></i>
+					<h1>73k</h1>
+				</div>
+			</div>
+			<div class="gallery">
+				<img src="/images/login_bg.jpg" alt="image">
+				<img src="/images/Clematis_0433.jpg" alt="image">
+				<img src="/images/Gänseblümchen_7283100 .jpg" alt="image">
+				<img src="/images/z_Weidenblüte_5602ff.jpg" alt="image">
+				<img src="/images/login_bg.jpg" alt="image">
+				<img src="/images/Zwetschkenblüte_2173.jpg" alt="image">
+				<img src="/images/z_Weidenblüte_5602ff.jpg" alt="image">
+				<img src="/images/login_bg.jpg" alt="image">
+				<img src="/images/Zwetschkenblüte_2173.jpg" alt="image">
+				<img src="/images/z_Weidenblüte_5602ff.jpg" alt="image">
+				<img src="/images/login_bg.jpg" alt="image">
+				<img src="/images/Zwetschkenblüte_2173.jpg" alt="image">
+			</div>
+		</section>
+		<section class="innerMain" data-section="profile">
+			profile
+		</section>
+		<section class="innerMain"  data-section="blog">
+			<div class="blog_nav">
+				Nav
+			</div>
+			<div class="blog_main">
+				<div class="blog_post">
+					<div class="blog">
+						<div class="blog_text">
+							<h2>This is CNN to day!</h2><br>
+							<p>Lorem ipsum dolor sit amet consectetur,icing elit. Amet placeat sint doloribus</p>	
+							<div class="blog_like"><i class="fas fa-heart"></i><span>34</span></div>
+							<div class="blog_more"><i class="far fa-bookmark"></i><i class="fas fa-ellipsis-v"></i></div>
+						</div>
+						<div class="blog_image">
+						</div>
+					</div>
+					
+
+				</div>
+				<div class="blog_sidebar">
+					sidebar
+				</div>
+			</div>
+		</section>
+		<section class="innerMain" data-section="todo">
+			TODO
+		</section>
+	</main>
+
+<%- include("./templates/footer.ejs") %>

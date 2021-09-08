@@ -1,0 +1,19 @@
+<%- include("./templates/head.ejs") %>
+<div class="loginContainer">
+	<form>
+		<div class="form">
+			<div class="logo"><i class="fas fa-user-shield"></i></div>
+			<h3>Login Form</h3>
+			<br>
+			<input type="text" name="email" id="email" placeholder="Email"><br>
+			<input type="password" autocomplete="true" name="password" id="password" placeholder="Password"><br><br>
+			<button id="login">Sign In</button>
+			<br>
+			<div class="form_link_text">
+				<p>Your are not a member?  <a href="/register">Register</a>	</p>
+			</div>
+		</div>
+	</form>
+	
+</div>
+<%- include("./templates/footer.ejs") %>

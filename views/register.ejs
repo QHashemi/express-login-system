@@ -1,0 +1,23 @@
+<%- include("./templates/head.ejs") %>
+<div class="registerContainer">
+	<form >
+		<div class="form">
+			<div class="logo"><i class="fas fa-user-shield"></i></div>
+			<h3>Register Form</h3>
+			<br>
+			<div class="row">
+				<input type="text" name="name" id="name" placeholder="Name" required><br>
+				<input type="text" name="username" id="username" placeholder="Username" required >
+			</div>
+			<br>
+			<input type="text" name="email" id="email" placeholder="Email" required ><br>
+			<input type="password" autocomplete="true" name="password" id="password" placeholder="Password" required><br><br>
+			<button id="sginup">Sign Up</button>
+			<br>
+			<div class="form_link_text">
+				<p>Already a member?  <a href="/login">Login</a>	</p>
+			</div>
+		</div>
+	</form>
+</div>
+<%- include("./templates/footer.ejs") %>
